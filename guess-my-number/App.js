@@ -7,7 +7,7 @@ import Colors from './constants/colors';
 import GameOverScreen from './screens/GameOverScreen';
 import { useFonts } from 'expo-font';
 import AppLoading from 'expo-app-loading';
-
+import { StatusBar } from 'react-native';
 export default function App() {
   const [userNumber, setUserNumber] = useState();
   const [gameIsOver, setGameIsOver] = useState(true);
